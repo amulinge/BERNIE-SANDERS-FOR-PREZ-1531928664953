@@ -1,0 +1,96 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+p{
+    color:black;
+    text-align:center;
+}
+
+h1{
+    font-size: 50px;
+    text-align:center;
+    font-size:60px;
+    color:#297FC4;
+    text-shadow: -6px 0 #FC4F48, 0 5px white, 1px 0 white, 0 -1px black;
+    
+}
+
+iframe{
+    display:flex;
+    width:500px;
+    height:300px;
+    justify-content:center;
+}
+    
+
+    
+    
+    
+h2{
+    font-size: 30px;
+}
+.donate{
+    width:40%;
+    border:red;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("https://giant.gfycat.com/SleepyReadyAuk.gif");
+    width:100%;
+}
+
+#donate {
+    background: #297FC4;
+}
+#eagles {
+    background: #FC4F48;
+    color: white;
+}
+
+#pics img{
+    width: 70%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 400px;   
+    height: 50px;
+    font-size: 20px;
+    background: #FC4F48;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: green;
+    color: black;
+}
